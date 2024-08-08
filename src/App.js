@@ -49,6 +49,7 @@ function App() {
   return (
     <div className="App">
       <h1>NewTransaction</h1>
+      <h2>WELCOME</h2>
       <form onSubmit={handleSubmit}>
     
         <input
