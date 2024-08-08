@@ -93,5 +93,5 @@ Terry Otieno
 ## Deployed link
 [link](https://transactiondb-json.vercel.app/)
 ## live link
-[link](https://transactiondb-json.vercel.app/transactions)
+[link]https://transaction-bay-gamma.vercel.app)
 
