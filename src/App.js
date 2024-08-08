@@ -13,7 +13,7 @@ function App() {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch('')
+    fetch('http://localhost:3000/transactions')
       .then(response => response.json())
       .then(data => setTransactions(data));
   }, []);
@@ -27,7 +27,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('', {
+    fetch('http://localhost:3000/transactions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -48,8 +48,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <h1>NewTransaction</h1>
       <form onSubmit={handleSubmit}>
+    
         <input
           type="text"
           name="date"
