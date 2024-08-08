@@ -16,7 +16,7 @@ const [newTransaction, setNewTransaction] = useState({
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3000/transactions', {
+    fetch('https://transactiondb-json.vercel.app/transactions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

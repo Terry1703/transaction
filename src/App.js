@@ -13,7 +13,7 @@ function App() {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/transactions')
+    fetch('https://transactiondb-json.vercel.app/transactions')
       .then(response => response.json())
       .then(data => setTransactions(data));
   }, []);
@@ -27,7 +27,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3000/transactions', {
+    fetch('https://transactiondb-json.vercel.app/transactions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
