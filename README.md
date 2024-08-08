@@ -89,5 +89,9 @@ bash Copy code
 
 
 #### AUTHOR The project contributed to and maintained by: 
-Terry Otieno contact;0729625722
+Terry Otieno 
+## Deployed link
+[link](https://transactiondb-json.vercel.app/)
+##live link
+[link](https://transactiondb-json.vercel.app/transactions)
 
