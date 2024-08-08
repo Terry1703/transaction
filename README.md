@@ -92,6 +92,6 @@ bash Copy code
 Terry Otieno 
 ## Deployed link
 [link](https://transactiondb-json.vercel.app/)
-##live link
+## live link
 [link](https://transactiondb-json.vercel.app/transactions)
 
