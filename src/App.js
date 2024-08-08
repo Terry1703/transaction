@@ -50,6 +50,7 @@ function App() {
     <div className="App">
       <h1>NewTransaction</h1>
       <h2>WELCOME</h2>
+      <h2>HELLO WORLD</h2>
       <form onSubmit={handleSubmit}>
     
         <input
